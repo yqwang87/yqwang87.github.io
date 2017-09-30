@@ -1,27 +1,25 @@
-.my-body {
-    background-color: #212121;
-    font-family: 'lato';
+.class_a {
+    color: red;
+    background-color: violet;
 }
 
-.my-title {
-    font-size: 4rem;
-    font-weight: 900;
-    color: white;
+.class_a p{
+    color: black;
+    background-color: yellow;
 }
 
-.my-subtitle {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: orangered;
-    background-color: white;
-}
-   
-.my-paragraph {
-    font-size: 3rem;
-    font-weight: 100;
-    color: white;
+
+.class_a .class_b .class_c {
+    color: pink;
 }
 
-.my-strong {
-    text-shadow: 2px 22px 0 orangered;
+.background_image{
+    background-image: url("http://i.huffpost.com/gen/1194752/images/o-ALBINO-GORILLA-INBRED-facebook.jpg");
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
 }

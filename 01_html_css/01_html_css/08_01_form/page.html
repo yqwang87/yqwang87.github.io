@@ -2,6 +2,12 @@
 <html>
 <head>
 	<title>Forms</title>
+	<style>
+		input:focus {
+			color: red;
+			font-weight: bold;
+		}
+	</style>
 </head>
 <body>
 
@@ -20,7 +26,23 @@
 4. username and email should have accompanying labels
 5. each label+input pair is wrapped in a <div> 
 -->
+<form action="https://coderinyou-1332.appspot.com/submit" method="get">
+	<div>
+		<label for="Username">Username</label>
+		<input id="Username" type="text" name="Username" placeholder="Sexy Lee" required>
+	</div>
+	<div>
+		<label for="Email">Email</label>
+		<input id="Email" type="email" name="email" placeholder="email@email.com" required>
+	</div>
+	<div>
+		<input type="submit" value="sign up"
+	</div>
+	<div>
+		<textarea name="Type_here" placeholder="Type your message here" id="Text" cols="30" rows="10"></textarea>
+	</div>
 
+</form>
 
 
 

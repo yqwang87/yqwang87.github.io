@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: saddlebrown;
+    padding: 5px;
+}
+
+.child1{
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.child2{
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 5px;
+    border-left: 1px solid black;
+}
+img{
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px border-style pink;
+}
+
+input, textarea{
+    width: 100%;
+}
