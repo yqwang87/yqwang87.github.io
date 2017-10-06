@@ -10,9 +10,18 @@
     width: 100%;
 }
 
-.my-parallax{
+.my-parallax1{
 	height: 80vh;
-	background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/946/images/story_full_width/forests-why-matter_63516847.jpg?1345534028);
+	background-image: url(https://media.giphy.com/media/gBxL0G0DqZd84/giphy.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+.my-parallax2{
+	height: 80vh;
+	background-image: url(https://media.giphy.com/media/3ohhwg3O1TGRXHQYh2/giphy.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
